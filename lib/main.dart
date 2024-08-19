@@ -18,9 +18,9 @@ class Myapp extends StatelessWidget {
           leading: Icon(Icons.menu),
           actions: [
             Icon(Icons.search),
-            
           ],
         ),
+        body: Center(child: Text("Hello Friends My Name is Flutter")),
       ),
     );
   }
